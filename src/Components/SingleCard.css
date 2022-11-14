@@ -1,0 +1,20 @@
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 40px;
+    grid-gap: 20px;
+  
+  }
+
+  .card .front {
+
+    transform: rotateY(90deg);
+    position: absolute;
+
+  }
+
+  .flipped .front {
+
+    transform: rotateY(0deg);
+
+  }
